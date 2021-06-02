@@ -14,7 +14,7 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Hiii chào Cá Nóc (Người yêu tui ^^)!',
+        title: 'Hiii chào Cá Nóc-Người yêu tui (^^)!',
         text: 'Anh có điều này muốn hỏi em nhớ phải trả lời thật lòng nhaaa.',
         imageUrl: 'img/tho.jpg',
         imageWidth: 300,
