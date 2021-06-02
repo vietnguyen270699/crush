@@ -14,7 +14,7 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Hiii chào em!',
+        title: 'Hiii chào Cá Nóc (Người yêu tui ^^)!',
         text: 'Anh có điều này muốn hỏi em nhớ phải trả lời thật lòng nhaaa.',
         imageUrl: 'img/tho.jpg',
         imageWidth: 300,
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì anh đẹp trai ớ :<<<<<<< ";
+    var text = " Tại vì anh dễ thương ớ :<<<<<<< ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -122,7 +122,7 @@ $('#yes').click(function() {
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
                 title: 'Anh biết mà ^^ Yêu em 300.000',
-                text: "Hôm sau anh qua đón em đi chơi nhaaaaaaaaa :v ",
+                text: "Chờ anh ra Đà Nẵng đón em nha :v ",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'http://fb.com';
