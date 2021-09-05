@@ -14,7 +14,7 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Hiii chào Cá Nóc-Người yêu tui (^^)!',
+        title: 'Hiii chào Tí Nị yêu tui (^^)!',
         text: 'Anh có điều này muốn hỏi em nhớ phải trả lời thật lòng nhaaa.',
         imageUrl: 'img/tho.jpg',
         imageWidth: 300,
@@ -122,7 +122,7 @@ $('#yes').click(function() {
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
                 title: 'Anh biết mà ^^ Yêu em 300.000',
-                text: "Chờ anh ra Đắk Lắk đón em nha :v ",
+                text: "Chờ anh, em nha :v ",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'http://fb.com';
